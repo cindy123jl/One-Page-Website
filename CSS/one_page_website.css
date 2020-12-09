@@ -1,0 +1,171 @@
+html{
+    font-family: courier;
+    font: size 62.5%;
+    -webkit-tap-highlight-color: rgba(214, 62, 62, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body{
+    font-size: 7;
+    margin: 0;
+    font-family: courier;
+    line-height: 1.42857143;
+    color: antiquewhite;
+    background-color: antiquewhite;
+}
+
+.menu{
+    color: black;
+}
+
+
+/*---------------------------------
+    HOME SECTION STYLES
+----------------------------------*/
+#home{
+    font: courier;
+    text-align: center;
+    color: black;
+    letter-spacing: 6pt;
+    word-spacing: 21pt;
+    padding-bottom:2%;
+}
+
+.head-main{
+    text-shadow: purple;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    font: courier;
+}
+
+/*--------------------------------
+    ABOUT
+---------------------------------*/
+#about{
+    font: courier;
+    text-align: center;
+    color: black;
+    padding-bottom:2%;
+}
+
+.h1{
+    font: courier;
+    text-align: center;
+    color: black;
+}
+
+.h3{
+    font: courier;
+    text-align: center;
+    color: lightblue;
+}
+
+.section p{
+    font: courier;
+    text-align:center;
+}
+
+
+/*---------------------------------
+    CONTACT STYLES
+---------------------------------*/
+
+#contact{
+    background-color: antiquewhite;
+}
+
+.contact{
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: antiquewhite;
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.contact p{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5em;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+}
+
+.contact form{
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8d8e8f;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 7px;
+    background-color: black;
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.979);
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact input[type="text"]{
+    font-size: 15px;
+    outline: none;
+    font-weight:600;
+    color: #000000;
+    padding: 2% 1% 2% 7%;
+    width: 80%;
+    border-top: 1px solid #090b0d;
+    border-right: 2px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #090b0d;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: antiquewhite;
+    font-family: courier;
+}
+
+.contact input[type = "text"]:hover{
+    box-shadow: 0 0 18px rgb(219, 193, 158);
+}
+
+.form-spacer{
+    padding: 30px 39px;
+}
+
+.submit input[type="submit"]{
+    color:rgb(225, 225, 225);
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+    outline: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 3%;
+    padding: 7px 0px;
+    width: 25%;
+    font-size: 18px;
+    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    border-radius: 7px;
+    background-color: #000000;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.submit input[type="submit"]:hover{
+    color: rgb(255, 255, 255);
+    background-color: #7a7a7a;
+    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*-----------------------------------------------
+   FOOTER STYLES
+-----------------------------------------------*/
+#footer{
+    color: #000;
+    text-shadow: 2px 2px 8px 0 (0, 0, 0, 0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+}
