@@ -42,57 +42,60 @@
 	<div class = "photo">
 	
 		<h2 style="text-align: center;"><br><br>Loved Kombucha Drinks:<br></h2>
-
-		<img src = "./image1new.jpg" alt = "Canned Kombucha" width="350" height="350" class="hover-shadow"><br>
-		<p>$3.17 per can<br>$12 for 5 cans<br>Better Booch:<br>
+	<div class = "row">
+		<div class ="column">
+			<img src = "./image1new.jpg" alt = "Canned Kombucha" width="250" height="250" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"><br>
+			<p>$3.17 per can<br>$12 for 5 cans<br>Better Booch:<br>
 			 Golden Pear flavored Kombucha
-		</p>
-		<img src ="./image2.png" alt = "Health Ade Kombucha" width="350" height="350" class="hover-shadow"><br>
-		<p>$4.10 per bottle<br>$13 for 5 bottles<br>Health Ade:<br>
+			</p>
+		</div>
+		
+		<div class="column">
+			<img src ="./image2.png" alt = "Health Ade Kombucha" width="250" height="250" onclick="openModal();currentSlide(2)" class="hover-shadow cursor"><br>
+			<p>$4.10 per bottle<br>$13 for 5 bottles<br>Health Ade:<br>
 			Pink Lady Apple flavored Kombucha
-	    </p>
-		<img src ="./image3.png" alt = "GTS Kombucha" width="350" height="350" class="hover-shadow"><br>
-		<p>$3.48 per bottle<br>$12 for 5 bottles<br>GTS Kombucha:<br>
+	   		 </p>
+	   	</div>
+	
+		<div class="column">
+			<img src ="./image3.png" alt = "GTS Kombucha" width="250" height="250" onclick="openModal();currentSlide(3)" class="hover-shadow cursor"><br>
+			<p>$3.48 per bottle<br>$12 for 5 bottles<br>GTS Kombucha:<br>
 			Gingerade flavored Kombucha
-	    </p>
-		<img src ="./image4.jpg" alt = "Brew Dr Kombucha" width="350" height="350" class="hover-shadow"><br>
-		<p>$3.25 per bottle<br>$12 for 5 bottles<br>Brew Dr Komucha<br>
+	  	    </p>
+	  	 </div>
+	 
+	 	<div class="column">
+			<img src ="./image4.jpg" alt = "Brew Dr Kombucha" width="250" height="250" onclick="openModal();currentSlide(4)" class="hover-shadow cursor"><br>
+			<p>$3.25 per bottle<br>$12 for 5 bottles<br>Brew Dr Komucha<br>
 			Ginger Lemon flavored Kombucha
-		</p>
-		<img src ="./image5new.jpg" alt = "Kevita" width="350" height="350" class="hover-shadow"><br>
-		<p>$3.68 per bottle<br>$13 for 5 bottles<br>Kevita<br>
-		   Ginger flavored Kombucha<br><br>
-		</p>
-	</div>
+			</p>
+		</div>
+	 </div>
 
 	<div id="myModal" class="modal">
 		<span class="close cursor" onclick="closeModal()">&times;</span>
 		<div class="modal-content">
 			
 			<div class="mySlides">
-				<div class="numbertext">1/5</div>
+				<div class="numbertext">1/4</div>
 				<img src="image1new.jpg" style = "width:100%">
 			</div>
 
 			<div class="mySlides">
-				<div class="numbertext">2/5</div>
+				<div class="numbertext">2/4</div>
 				<img src="image2.png" style = "width:100%">
 			</div>
 
 			<div class="mySlides">
-				<div class="numbertext">3/5</div>
+				<div class="numbertext">3/4</div>
 				<img src="image3.png" style = "width:100%">
 			</div>
 
 			<div class="mySlides">
-				<div class="numbertext">4/5</div>
+				<div class="numbertext">4/4</div>
 				<img src="image4.jpg" style = "width:100%">
 			</div>
 
-			<div class="mySlides">
-				<div class="numbertext">5/5</div>
-				<img src="image5new.jpg" style = "width:100%">
-			</div>
 
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -118,9 +121,6 @@
 				<img class="demo cursor" src="image4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Kombucha">
 			</div>
 
-			<div class="column">
-				<img class="demo cursor" src="image5new.jpg" style="width:100%" onclick="currentSlide(5)" alt="Kombucha">
-			</div>
 		</div>
 	</div>
 	</div>
